@@ -38,7 +38,7 @@ function Signup() {
         <form action="" onSubmit={handleSubmit}>
           <div className="mb-3">
             <label htmlFor="name">
-              {" "}
+             
               <strong>Name</strong>
             </label>
             <input
@@ -54,7 +54,7 @@ function Signup() {
           </div>
           <div className="mb-3">
             <label htmlFor="email">
-              {" "}
+              
               <strong>Email</strong>
             </label>
             <input
@@ -70,7 +70,7 @@ function Signup() {
           </div>
           <div className="mb-3">
             <label htmlFor="password">
-              {" "}
+              
               <strong>Password</strong>
             </label>
             <input
@@ -84,7 +84,7 @@ function Signup() {
           </div>
 
           <button type="submit" className="btn btn-success w-100 rounded-0">
-            {" "}
+            
             <strong>Sign Up</strong>
           </button>
           <p> You agree to the terms and conditions.</p>
